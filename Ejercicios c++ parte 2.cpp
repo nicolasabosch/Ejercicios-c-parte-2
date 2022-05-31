@@ -154,37 +154,83 @@ int main()
 	 }*/
 
 
-	/*
-	20)
-	int caso;
-	printf("Que caso elegis?\n");
-	scanf_s("%i", &caso);
+	 /*
+	 20)
+	 int caso;
+	 printf("Que caso elegis?\n");
+	 scanf_s("%i", &caso);
 
-	switch (caso)
-	{
-	case 1:
+	 switch (caso)
+	 {
+	 case 1:
 
-		operacionSuma();
-		
+		 operacionSuma();
 
-		break;
-	case 2:
 
-		operacionResta();
-		
-		
-		break;
-		
-	case 3:
+		 break;
+	 case 2:
 
-		operacionMulti();
+		 operacionResta();
 
-		break;
-	case 4:
 
-		operacionDivi();
+		 break;
 
-		break;
+	 case 3:
 
-	}*/
+		 operacionMulti();
+
+		 break;
+	 case 4:
+
+		 operacionDivi();
+
+		 break;
+
+	 }*/
+	 /*
+	 21)
+	 int vector[10];
+
+	 for (int i = 0; i < 10; i++) {
+
+		 printf("\n\tIngrese un número entero: ");
+
+		 scanf("%i", &vector[i]);
+	 }
+
+
+	 for (int i = 0; i < 10; i++) {
+
+		 printf("\n\t %i", vector[i]);
+	 }
+	 */
+/*
+	22)
+	int nroDeMes;
+	int dia;
+	int sumaDeDias = 0;
+
+	int cantDiasPorMes[12] = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
+
+	printf("\n\nIngrese un mes (ejemplo: Febrero es el mes 2): ");
+
+	scanf("%i", &nroDeMes);
+
+	printf("\n  Ese mes tiene %i días ", cantDiasPorMes[nroDeMes - 1]);
+
+	printf("\n\nAhora, ingrese un mes (ejemplo: Febrero es el mes 2) y un día: ");
+
+	scanf("%i %i", &nroDeMes, &dia);
+
+	for (int i = 0; i <= nroDeMes; i++) {
+
+		sumaDeDias += cantDiasPorMes[i - 1];
+		if (i == nroDeMes) {
+
+			sumaDeDias -= (cantDiasPorMes[i - 1] - dia);
+		}
+	}
+
+	printf("\n Esa fecha es el número de día %i del año ", sumaDeDias);
+}*/
 }
