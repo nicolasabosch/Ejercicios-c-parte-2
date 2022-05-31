@@ -82,6 +82,7 @@ int main()
 	 */
 
 	 /*
+	  14)
 	  int num;
 
 	  printf("Ingresa un numero\n");
@@ -125,6 +126,7 @@ int main()
 		 printf("%i\n", i);
 	 }*/
 	 /*
+	 18)
 	 for (int i = 44; i < 72; i++) {
 		 if (i % 4 == 0) {
 			 printf("%i\n", i);
